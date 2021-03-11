@@ -1,0 +1,23 @@
+.main-home{
+    background-color: lightsteelblue;
+}
+
+
+@media screen and (min-width: 450px){
+    #leagues{
+        display: grid;
+        grid-template-columns: repeat(1);
+        gap: 30px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 800px){
+    #leagues{
+        grid-template-columns: repeat(2, 410px);
+    }
+}
+@media screen and (min-width: 900px){
+    #leagues{
+        grid-template-columns: repeat(3, 415px);
+    }
+}

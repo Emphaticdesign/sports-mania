@@ -1,0 +1,10 @@
+.header-home{
+    text-align: center;
+    background-image: url('./headerBackground.jpg');
+    height: 200px;
+}
+.league-name{
+    padding-top: 75px;
+    font-size: 60px; 
+    color: salmon;   
+}
